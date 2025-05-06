@@ -1,0 +1,48 @@
+@import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #1e1e2f, #3a3a5f);
+    color: #fff;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+    padding: 40px;
+}
+
+.login-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.banner-sec {
+    background: url("https://htmlburger.com/blog/wp-content/uploads/2023/02/event-website-design.jpg") no-repeat center center;
+    background-size: cover;
+    min-height: 500px;
+    border-radius: 15px;
+}
+
+.login-sec h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #ffcc00;
+    text-align: center;
+}
+
+.btn-login {
+    background: #ffcc00;
+    color: #1e1e2f;
+    font-weight: 600;
+    padding: 12px 20px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn-login:hover {
+    background: #ffaa00;
+}
