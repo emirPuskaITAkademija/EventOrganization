@@ -44,4 +44,12 @@ public class CountryRestService {
         countryService.edit(country);
         return country;
     }
+
+    @DELETE
+    @Path("{id}")
+    public Country delete(@PathParam("id") Integer id) {
+        Country country = countryService.find(id);
+        countryService.remove(country);
+        return country;
+    }
 }
